@@ -16,7 +16,7 @@ const LocalStorage = require('node-localstorage').LocalStorage;
 localStorage = new LocalStorage('./scratch');
 }
 
-console.log(process.env.TOKEN_KEY)
+// console.log(process.env.TOKEN_KEY)
 
  //for the env file 
 // require('dotenv').config({path:''});
